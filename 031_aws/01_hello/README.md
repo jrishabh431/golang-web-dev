@@ -22,6 +22,7 @@
 
 1. Build hello world
   - GOOS=linux GOARCH=amd64 go build
+    -   GOOS=linux GOARCH=amd64 go build -o <binaryname>
 
 1. Copy your binary to the sever
   - scp -i /path/to/[your].pem ./main ec2-user@[public-DNS]:
